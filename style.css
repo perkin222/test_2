@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(117, 222, 145);
+    color: rgb(31, 135, 17);
+    font-style: italic;
+    font-size: 20px;
+    }
+
+.wrapper{
+    margin:0 auto;
+    width:700px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.right{
+    color: rgb(0, 126, 0);
+    border-radius: 5px;
+    padding-left:5px;
+}
+.wrong{
+    color: rgb(228, 0, 11);
+    border-radius: 5px;
+    padding-left:5px;
+}
+.hidden{
+    display: none;
+}
+#btn1{
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(97, 96, 107));
+}
+.opend{
+    background-color: rgb(111, 223, 146);
+}
